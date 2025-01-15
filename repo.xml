@@ -3,7 +3,8 @@
 		<link>
 			<name>Follow me on X</name>
 			<url>https://x.com/inazuma_dev?s=21</url>
-			<iconclass>fa fa-X</iconclass>
+			<iconclass><i class="fa-brands fa-x-twitter"></i>
+
 		</link>
 		<link>
 			<name>I want this depiction template</name>
