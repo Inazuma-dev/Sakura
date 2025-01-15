@@ -1,0 +1,8 @@
+Origin: Sakura
+Label: Sakura
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: Cydia repo for iOS 7.0 - 7.1.2
