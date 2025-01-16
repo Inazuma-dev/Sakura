@@ -1,10 +1,10 @@
 <package>
 	<id>com.supermamon.oldpackage</id>
-	<name>Old Package</name>
-	<version>1.0.0-1</version>
+	<name>Sakura Package</name>
+	<version>1.0</version>
 	<compatibility>
 		<firmware>
-			<maxiOS>7.0</maxiOS>
+			<maxiOS>7.1.2</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 			<!--
 			for otherVersions, you can put either unsupported or unconfirmed
@@ -13,7 +13,8 @@
 	</compatibility>
 	<dependencies></dependencies>
 	<descriptionlist>
-		<description>This is an old package. Requires iOS 7 and below..</description>
+        <description>This is an Sakura package it contains iOS 7 Tweaks.</description>
+            <description>Requires iOS 7.0 up to 7.1.2</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
