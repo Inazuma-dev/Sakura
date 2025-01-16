@@ -6,7 +6,8 @@ Now fun part if u have idea for
 I'll make tweak list in couple weeks
 
 ---
-for iOS 6 check out Mizuki https://github.com/Inazuma-dev/Mizuki
+for iOS 6 check out Mizuki 💠 
+https://github.com/Inazuma-dev/Mizuki
 
 ---
 ![CydiaIcon](Icons/CydiaIcon.png)
