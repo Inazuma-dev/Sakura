@@ -1,114 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Sakura Package</title>
-    <meta charset="utf•8">
-    <meta name="viewport" content="width=device•width, initial•scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font•awesome/5.15.4/css/all.min.css">
-    <style>
-        body {
-            background•color: #000000; /* OLED•friendly true black */
-            color: #ffffff; /* High•contrast white text */
-            font•family: Arial, sans•serif;
-        }
-
-        .container {
-            max•width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-        }
-
-        .header {
-            text•align: center;
-            margin•bottom: 30px;
-        }
-
-        .header h1 {
-            font•size: 2.5rem;
-            color: #ff69b4; /* Vibrant pink accent */
-        }
-
-        .card {
-            background•color: #121212; /* Subtle dark gray for contrast */
-            border: none;
-            border•radius: 10px;
-            margin•bottom: 20px;
-        }
-
-        .card•header {
-            background•color: #1f1f1f;
-            color: #ff69b4;
-            font•weight: bold;
-            padding: 15px;
-            border•radius: 10px 10px 0 0;
-        }
-
-        .card•body {
-            padding: 20px;
-        }
-
-        .btn•primary {
-            background•color: #007bff;
-            border: none;
-            color: #ffffff;
-            padding: 10px 20px;
-            border•radius: 5px;
-        }
-
-        .btn•primary:hover {
-            background•color: #0056b3;
-        }
-
-        .changelog {
-            margin•top: 30px;
-        }
-
-        .changelog h3 {
-            color: #ff69b4;
-        }
-
-        .changelog ul {
-            list•style•type: square;
-            padding•left: 20px;
-        }
-    </style>
-</head>
-<body>
-
-<div class="container">
-    <div class="header">
-        <h1>Sakura Package</h1>
-        <p>Version: 1.0</p>
-    </div>
-
-    <div class="card">
-        <div class="card•header">
-            Compatibility
-        </div>
-        <div class="card•body">
-            <p><b>Maximum iOS Version:</b> 7.1.2</p>
-            <p><b>Other Versions:</b> Unsupported</p>
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="card•header">
-            Description
-        </div>
-        <div class="card•body">
-            <p>This is a Sakura package that contains iOS 7 tweaks.</p>
-            <p>Requires iOS 7.0 up to 7.1.2.</p>
-        </div>
-    </div>
-
-    <div class="changelog">
-        <h3>Changelog</h3>
-        <ul>
-            <li>Initial release</li>
-        </ul>
-    </div>
-</div>
-
-</body>
-</html>
+<package>
+	<id>com.supermamon.oldpackage</id>
+	<name>Sakura Package</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<maxiOS>7.1.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+        <description>This is an Sakura package it contains iOS 7 Tweaks.</description>
+            <description>Requires iOS 7.0 up to 7.1.2</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>
