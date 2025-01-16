@@ -3,7 +3,8 @@
 		<link>
 			<name>Follow me on X</name>
 			<url>https://x.com/inazuma_dev?s=21</url>
-		</link>
+            <iconclass>fa fa-x-twitter</iconclass>
+        </link>
 		<link>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
