@@ -1,52 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Sakura 🌸</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="depictions/style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <title>Sakura 🌸</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header-section {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .header-section img {
+            width: 60px;
+            height: 60px;
+            border-radius: 10px;
+            margin-right: 15px;
+        }
+
+        .header-section h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .card {
+            background-color: #2a2a2a;
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .card-header {
+            background-color: #333333;
+            padding: 15px 20px;
+            border-bottom: none;
+            border-radius: 10px 10px 0 0 !important;
+            font-weight: bold;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            padding: 8px 16px;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        .page-header {
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+
+        .social-links {
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .social-links a {
+            margin: 5px;
+            padding: 8px 16px;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            transform: translateY(-2px);
+        }
+
+        .text-primary {
+            color: #007bff !important;
+        }
+    </style>
 </head>
 <body>
 
 <div class="container">
-	<h1><img src="CydiaIcon.png"> Sakura 🌸</h1>
-</div>
+    <div class="header-section">
+        <img src="CydiaIcon.png" alt="Sakura Icon">
+        <h1>Sakura 🌸</h1>
+    </div>
 
-<div class="container">
-	<div class="card">
-		<div class="card-body">
-			<p><span class="text-primary"><b>Sekura</span></b> is a Cydia repository For iOS 7.0 - 7.1.2.</p>
-			<a class="btn btn-sm btn-primary" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://supermamon.github.io/Reposi3/">Add to Cydia</a>
-		</div>
-	</div>
-</div>
-<p></p>
-<div class="container">
-  <h3 id="wells" class="page-header">Featured Packages</h3>
-</div>
+    <div class="card">
+        <div class="card-body">
+            <p><span class="text-primary"><b>Sakura</span></b> is a Cydia repository For iOS 7.0 - 7.1.2.</p>
+            <a class="btn btn-sm btn-primary" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://inazuma-dev.github.io/Sakura/">Add to Cydia</a>
+        </div>
+    </div>
 
-<div class="container">
+    <h3 id="wells" class="page-header">Featured Packages</h3>
+
     <div class="card">
         <div class="card-header">
             Sakura Package
         </div>
         <div class="card-body">
             <p class="card-text">This is a repo with Freemium tweaks for iOS 7.0 up to 7.1.2</p>
-            <a class="btn btn-xs btn-primary" href="depictions/?p=com.supermamon.oldpackage">More info</a>
+            <a class="btn btn-primary" href="depictions/?p=com.supermamon.oldpackage">More info</a>
         </div>
-        <div class="container">
-            <div class="card">
-                <div class="card-header">
-                    Socials
-                </div>
-                <div class="card-body">
-                    <div class="social-links text-center">
-                        <a href="https://linktr.ee/Inazuma_dev?utm_source=linktree_admin_share" class="btn btn-outline-primary m-1">
-                            <i class="fab fa-linktree"></i> Linktree
-                        
-                    </div>
-        
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            Follow Me
+        </div>
+        <div class="card-body">
+            <div class="social-links">
+                <a href="https://linktr.ee/yourusername" class="btn btn-outline-primary">
+                    <i class="fas fa-link"></i> Linktree
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
 </body>
 </html>
