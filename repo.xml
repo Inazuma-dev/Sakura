@@ -6,8 +6,13 @@
 			<iconclass>fa fa-x-twitter</iconclass>
 		</link>
 		<link>
+<<<<<<< Updated upstream
 			<name>Buy mr a Burger 🍔</name>
 			<url>http://buymeacoffee.com/Inazuma_dev/</url>
+=======
+			<name>Buy Me a Coffee</name>
+			<url>https://github.com/supermamon/Reposi3/</url>
+>>>>>>> Stashed changes
             <i class="fa-brands fa-square-x-twitter"></i>
 		</link>
 	</footerlinks>
