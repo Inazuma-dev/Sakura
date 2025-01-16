@@ -1,0 +1,151 @@
+/* Base Styles */
+package {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Header Section */
+header {
+    background-color: #0a0a0a;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #222222;
+    display: block;
+}
+
+id {
+    color: #43E560;
+    font-size: 0.9em;
+    font-family: monospace;
+    display: block;
+    margin-bottom: 10px;
+}
+
+name {
+    color: #43E560;
+    font-size: 2em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+version {
+    color: #ffffff;
+    font-size: 1.2em;
+    display: block;
+    opacity: 0.8;
+}
+
+/* Content Sections */
+compatibility,
+dependencies,
+descriptionlist,
+screenshots,
+changelog,
+links {
+    background-color: #0a0a0a;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px 0;
+    border: 1px solid #222222;
+    display: block;
+}
+
+/* Section Headers */
+compatibility::before,
+dependencies::before,
+descriptionlist::before,
+screenshots::before,
+changelog::before,
+links::before {
+    content: attr(data-title);
+    display: block;
+    color: #43E560;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Firmware Info */
+firmware {
+    display: block;
+    margin: 10px 0;
+}
+
+maxiOS,
+otherVersions {
+    display: block;
+    margin: 5px 0;
+    color: #ffffff;
+}
+
+maxiOS::before {
+    content: "Max iOS: ";
+    color: #43E560;
+}
+
+otherVersions::before {
+    content: "Other Versions: ";
+    color: #43E560;
+}
+
+/* Description Items */
+description {
+    display: block;
+    margin: 8px 0;
+    line-height: 1.5;
+    padding-left: 20px;
+    position: relative;
+}
+
+description::before {
+    content: "•";
+    color: #43E560;
+    position: absolute;
+    left: 0;
+}
+
+/* Changelog */
+change {
+    display: block;
+    margin: 5px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+change::before {
+    content: "→";
+    color: #43E560;
+    position: absolute;
+    left: 0;
+}
+
+/* Links */
+link {
+    display: block;
+    color: #43E560;
+    text-decoration: none;
+    margin: 5px 0;
+    padding: 5px 0;
+}
+
+link:hover {
+    opacity: 0.8;
+}
+
+/* Hover Effects */
+compatibility:hover,
+dependencies:hover,
+descriptionlist:hover,
+screenshots:hover,
+changelog:hover,
+links:hover {
+    border-color: #43E560;
+    transition: border-color 0.3s ease;
+}
