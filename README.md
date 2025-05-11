@@ -1,9 +1,8 @@
 ## What is Sakura 🌸
 
-# It's a Cydia repository for iOS 7.0 up to 7.1.2, I't will contains paid tweaks for free! 
-Now fun part if u have idea for I'll make tweak list in couple weeks
+# It's a Cydia repository for iOS 8.x.x, I't will contains tweaks and thrmes made by me!
 ---
-for iOS 6 check out Mizuki 💠 
+for iOS 7 check out Mizuki 💠 
 https://github.com/Inazuma-dev/Mizuki
 
 ---
